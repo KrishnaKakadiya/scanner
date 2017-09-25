@@ -131,5 +131,5 @@ public class MainActivity extends AppCompatActivity {
         clipboard.setPrimaryClip(clip);
         Toast.makeText(MainActivity.this, "Copied...!",Toast.LENGTH_SHORT).show();
     }
-
+//dev
 }
