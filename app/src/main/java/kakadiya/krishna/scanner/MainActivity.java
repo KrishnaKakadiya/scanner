@@ -129,7 +129,6 @@ public class MainActivity extends AppCompatActivity {
         ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
         ClipData clip = ClipData.newPlainText("Copy", barcodeInfo.getText().toString());
         clipboard.setPrimaryClip(clip);
-        /*Copied*/
         Toast.makeText(MainActivity.this, "Copied...!",Toast.LENGTH_SHORT).show();
     }
 
