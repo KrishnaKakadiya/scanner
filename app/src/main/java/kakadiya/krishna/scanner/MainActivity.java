@@ -23,7 +23,8 @@ import com.google.android.gms.vision.barcode.BarcodeDetector;
 
 import java.io.IOException;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity
+{
     SurfaceView cameraView;
     TextView barcodeInfo;
     @Override
