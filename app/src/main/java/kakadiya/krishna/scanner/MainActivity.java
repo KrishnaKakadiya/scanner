@@ -23,8 +23,7 @@ import com.google.android.gms.vision.barcode.BarcodeDetector;
 
 import java.io.IOException;
 
-public class MainActivity extends AppCompatActivity
-{
+public class MainActivity extends AppCompatActivity {
     SurfaceView cameraView;
     TextView barcodeInfo;
     @Override
@@ -130,7 +129,7 @@ public class MainActivity extends AppCompatActivity
         ClipboardManager clipboard = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
         ClipData clip = ClipData.newPlainText("Copy", barcodeInfo.getText().toString());
         clipboard.setPrimaryClip(clip);
-        Toast.makeText(MainActivity.this, "Copied..!",Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "Copied...!",Toast.LENGTH_SHORT).show();
     }
 
 }
