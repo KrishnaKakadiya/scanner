@@ -1,2 +1,2 @@
 # scanner
-Here i implemented scanner application to scan all type of bar-code formats and added run time permissions for marsh mallow.
+Here I implemented scanner application to scan all type of bar-code formats and added run time permissions for marsh mallow.
